@@ -86,7 +86,7 @@ body
   margin: 0;
   width: 100%;
   font-size: 100%;
-  font-family: Vollkorn,Helvetica,Arial,sans-serif;
+  font-family: Yantramanav,Helvetica,Arial,sans-serif;
   color: #403d34;
   background-color: #fcfbf7;
   -webkit-font-smoothing: antialiased;
@@ -1773,7 +1773,7 @@ th, td
 
   .article .post_info span, .post_info span
   {
-    font-family: Vollkorn,Helvetica,Arial,sans-serif;
+    font-family: Yantramanav,Helvetica,Arial,sans-serif;
     font-style: italic;
     text-transform: none;
   }
@@ -2481,63 +2481,6 @@ iframe.twitter-tweet
     height: 76px !important;
     margin-top: 10px;
   }
-
-/* Sponsorship */
-
-.message_of_support
-{
-  top: 65px;
-  background-color: rgba(174,145,93,.90);
-  padding: 10px 10%;
-  font-family: Tahoma, Geneva, sans-serif;
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-}
-
-  .message_of_support a
-  {
-    text-decoration: none;
-    color: #000;
-  }
-
-  .message_of_support p
-  {
-    padding: 0 1.1em;
-  }
-
-#message_contents .fa-spin
-{
-  font-size: 1.2em;
-  color: #745d2f;
-}
-
-#message_contents .fa-external-link
-{
-  color: #745d2f;
-}
-
-@media (max-width: 65em) and (min-width: 0)
-{
-  .message_of_support
-  {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-
-    .message_of_support p
-    {
-      padding: 0;
-    }
-}
-
-@media (max-width: 45em) and (min-width: 0)
-{
-  .message_of_support
-  {
-    top: 45px;
-  }
-}
 
 @media print
 {
